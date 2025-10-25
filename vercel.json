@@ -1,8 +1,7 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_API_URL": "@pocket_guardian_api_url"
-  }
+  "outputDirectory": "client/dist",
+  "installCommand": "npm install --prefix client",
+  "framework": "vite",
+  "rootDirectory": "client"
 }
